@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+  overflow-y:none
+}
+
+::-webkit-scrollbar{
+  display:none;
+ 
+ }
+
+body {
+  background-color:#F5F5F5; /* Replace with your desired shade of gray */
+}
