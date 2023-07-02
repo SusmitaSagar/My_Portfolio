@@ -10,9 +10,12 @@ const skills = [
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
+  { skill: "Data Structure & algorithms" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Excel" },
+  { skill: "SQL" },
+  { skill: "C++" },
+  { skill: "Exploratory Data Analysis Techniques" },
 ]
 
 const AboutSection = () => {
@@ -30,24 +33,14 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Susmita and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-             
+            Greetings! I&apos;m on a captivating journey, pursuing a B.Tech in Computer Science and Engineering from Central University of Haryana. Passionate about technology and     
+            <span className="font-bold">{" driven by curiosity, "}</span> 
+            I&apos;m determined to explore the endless possibilities that lie at the 
+              <span className="font-bold">{" intersection of innovation and human experiences."}</span>              
             </p>
-            <br />
+            <br />           
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
-            </p>
-            <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+            But my interests go beyond the binary realm. When I am not immersed in lines of code, you&apos;ll find me exploring the world or nurturing my green thumb. Through traveling, I gain fresh perspectives and insights that fuel my creativity. Gardening, on the other hand, teaches me patience, attention to detail, and the beauty of nurturing growth—qualities that I bring to every project I undertake.
             </p>
             <br />
             <p>
@@ -55,10 +48,7 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">
                 never stop growing
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              and that&#39;s what I strive to do, I believe in constantly pushing boundaries and exploring new frontiers. As I embark on my career journey, I welcome exciting opportunities with open arms. I am excited to see where my career takes me.🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "ZedBlock",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "The highly Responsive official website for Zedblock company using nextjs , framer motion and Tailwind.Showcasing the company's value and services.Use imagekit.io for improving speed",
+    image: "/Zedblock.png",
+    github: "",
+    link: "https://zedblock-website.vercel.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Pan Card Tempering Detector",
+    description: "Detect if the pan card is real or tempered using Python and Googlecolab. used OpenCV and image processing techniques and Computed the (SSIM). Project got certified by Technophilia Solutions .  ",
+    image: "/pancard.png",
+    link: "https://github.com/SusmitaSagar/Pancard_tempering_detector/blob/main/Pancard_tempering_detector.ipynb",
+    github: "https://github.com/SusmitaSagar/certificates-/blob/main/internship%20Letter%20Technophilia%20slot%2015-26.pdf",
   },
   {
-    name: "Kator Family Photos",
+    name: "BytecodeLearners Club",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Bytcode learner is a coding club in my collage. Contributed in making its official website.",
+    image: "/bytecode.png",
+    github: "https://github.com/SusmitaSagar/bytecode_website",
+    link: "http://bytecodelearners.cuh.ac.in/",
   },
 ]
 
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
+                  <div className=" md:w-1/2 py-7">
                     <Link href={project.link}>
                       <Image
                         src={project.image}
